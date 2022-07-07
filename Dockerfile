@@ -6,7 +6,8 @@ COPY --chown=www-data:www-data ./ /data/frontend/ulooocom_homepage
 WORKDIR /data/frontend/ulooocom_homepage
 EXPOSE 3000
 RUN npm config set registry https://registry.npm.taobao.org
-RUN npm install -g yarn && yarn add sharp
+RUN npm install -g yarn
+RUN yarn add sharp
 RUN npm install
 #RUN npm run build
 CMD ["npm", "start"]
