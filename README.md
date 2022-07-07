@@ -1,6 +1,6 @@
 # Ulooocom's Homepage
 
-[https://home.ulooo.com/](https://home.ulooo.com/)
+[https://about.ulooo.com/](https://about.ulooo.com/)
 
 ## Tutorial
 
