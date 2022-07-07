@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        你好, 我是在上海的 web/php/magento 开发者!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Robin Fu
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>数字工匠 ( 创作者 / 开发者 / 设计者 )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/ulooocom.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -76,7 +76,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          工作经历
         </Heading>
         <Paragraph>
           Takuya is a freelance and a full-stack developer based in Osaka with a
@@ -106,25 +106,35 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          经历
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2005</BioYear>
+          湖南文理学院，学士学位
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2005-2007</BioYear>
+          资讯技术部，上海彪记有限公司
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2007-2009</BioYear>
+          技术部，上海壁系咨询有限公司
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2009-2010</BioYear>
+          技术部，旅行者传媒有限公司
+        </BioSection>
+        <BioSection>
+          <BioYear>2010-2011</BioYear>
+          技术部，上海游龙有限公司
+        </BioSection>
+        <BioSection>
+          <BioYear>2011-2016</BioYear>
+          优e网技术部，上海优怡商业有限公司
+        </BioSection>
+        <BioSection>
+          <BioYear>2017 至今</BioYear>
+          技术部，上海第一秒信息技术有限公司
         </BioSection>
       </Section>
 
@@ -133,15 +143,15 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          艺术, 音乐,{' '}
+          <Link href="" target="_blank">
+            视频
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+          ,{' '}
+          <Link href="#" target="_blank">
+            摄影
           </Link>
-          , Leica, Machine Learning
+          , 机器学习
         </Paragraph>
       </Section>
 
@@ -151,46 +161,35 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/ulooocom" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @ulooocom
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/ulooocom" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @ulooocom (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/ulooocom" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @ulooocom
               </Button>
             </Link>
           </ListItem>
