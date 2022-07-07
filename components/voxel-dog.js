@@ -13,7 +13,7 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(1, 12, 0.5))
+  const [target] = useState(new THREE.Vector3(-0.5, 12, 0))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
       20 * Math.sin(0.2 * Math.PI),
@@ -53,13 +53,13 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 650
+      const scale = scH * 0.005 + 120
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
-        scale - 150,
-        -scale - 30,
-        0.0001,
+        scale,
+        -scale,
+        0.01,
         50000
       )
       camera.position.copy(initialCameraPosition)
@@ -74,7 +74,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/sketchfab_3d_editor_challenge_littlest_tokyo/scene.gltf', {
+      loadGLTFModel(scene, '/fisherboy/scene.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        你好, 我是在上海的 web/php/magento 开发者!
+        你好, 我是在上海的 web/php/magento模块 开发者!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -79,21 +79,12 @@ const Home = () => (
           关于我
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
+          Robin Fu 是一名在上海的数字工匠。他喜欢PC产品，热衷于编程开发，做一些有意思的应用与网站。
+          他也喜欢操作一些视频，有自己的视频频道名为 &quot;
+          <NextLink href="https://space.bilibili.com/479701565" passHref>
+            <Link target="_blank">ulooocom</Link>
           </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          &quot; 有一些订阅者。
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
