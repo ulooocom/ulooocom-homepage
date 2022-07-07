@@ -144,11 +144,11 @@ const Home = () => (
         </Heading>
         <Paragraph>
           艺术, 音乐,{' '}
-          <Link href="" target="_blank">
+          <Link href="https://space.bilibili.com/479701565" target="_blank">
             视频
           </Link>
           ,{' '}
-          <Link href="#" target="_blank">
+          <Link href="https://instagram.com/ulooocom" target="_blank">
             摄影
           </Link>
           , 机器学习
@@ -172,13 +172,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/ulooocom" target="_blank">
+            <Link href="https://weibo.com/shtag" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @ulooocom (English)
+                @ulooocom (微博)
               </Button>
             </Link>
           </ListItem>
@@ -215,7 +215,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+            热门内容
             </Button>
           </NextLink>
         </Box>
