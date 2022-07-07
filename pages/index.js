@@ -76,7 +76,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          工作经历
+          关于我
         </Heading>
         <Paragraph>
           Takuya is a freelance and a full-stack developer based in Osaka with a
@@ -98,7 +98,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              我的作品
             </Button>
           </NextLink>
         </Box>
@@ -110,31 +110,31 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2005</BioYear>
-          学士学位 · 湖南文理学院
+          学士学位 · 湖南文理
         </BioSection>
         <BioSection>
           <BioYear>2005-2007</BioYear>
-          资讯技术部 · 上海彪记有限公司
+          资讯技术部 · 上海彪记
         </BioSection>
         <BioSection>
           <BioYear>2007-2009</BioYear>
-          技术部 · 上海壁系咨询有限公司
+          技术部 · 上海壁系商务咨询
         </BioSection>
         <BioSection>
           <BioYear>2009-2010</BioYear>
-          技术部 · 旅行者传媒有限公司
+          万花筒 · 技术部 · 旅行者传媒
         </BioSection>
         <BioSection>
           <BioYear>2010-2011</BioYear>
-          技术部 · 上海游龙有限公司
+          国际研发中心 · 上海游龙
         </BioSection>
         <BioSection>
           <BioYear>2011-2016</BioYear>
-          优e网 · 技术部 · 上海优怡商业有限公司
+          优e网 · 技术部 · 上海优怡商业
         </BioSection>
         <BioSection>
           <BioYear>2017 至今</BioYear>
-          技术部 · 上海第一秒信息技术有限公司
+          技术部 · 上海第一秒信息技术
         </BioSection>
       </Section>
 
