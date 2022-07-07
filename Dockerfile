@@ -10,5 +10,4 @@ RUN npm config set registry https://registry.npm.taobao.org
 RUN pwd && yarn add sharp
 RUN npm install
 RUN npm run build
-#RUN npm run build
 CMD ["npm", "start"]
