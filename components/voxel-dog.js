@@ -13,10 +13,10 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
+  const [target] = useState(new THREE.Vector3(-1, 0.02, 0.5))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
-      20 * Math.sin(0.2 * Math.PI),
+      50 * Math.sin(0.2 * Math.PI),
       10,
       20 * Math.cos(0.2 * Math.PI)
     )
@@ -53,12 +53,12 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.005 - 6.5
       const camera = new THREE.OrthographicCamera(
+        scale + 2,
         -scale,
+        -scale - 1.5,
         scale,
-        scale,
-        -scale,
         0.01,
         50000
       )
@@ -74,7 +74,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, '/ship_in_a_bottle/scene.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
