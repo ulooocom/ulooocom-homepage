@@ -110,31 +110,31 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2005</BioYear>
-          湖南文理学院，学士学位
+          学士学位 · 湖南文理学院
         </BioSection>
         <BioSection>
           <BioYear>2005-2007</BioYear>
-          资讯技术部，上海彪记有限公司
+          资讯技术部 · 上海彪记有限公司
         </BioSection>
         <BioSection>
           <BioYear>2007-2009</BioYear>
-          技术部，上海壁系咨询有限公司
+          技术部 · 上海壁系咨询有限公司
         </BioSection>
         <BioSection>
           <BioYear>2009-2010</BioYear>
-          技术部，旅行者传媒有限公司
+          技术部 · 旅行者传媒有限公司
         </BioSection>
         <BioSection>
           <BioYear>2010-2011</BioYear>
-          技术部，上海游龙有限公司
+          技术部 · 上海游龙有限公司
         </BioSection>
         <BioSection>
           <BioYear>2011-2016</BioYear>
-          优e网技术部，上海优怡商业有限公司
+          优e网 · 技术部 · 上海优怡商业有限公司
         </BioSection>
         <BioSection>
           <BioYear>2017 至今</BioYear>
-          技术部，上海第一秒信息技术有限公司
+          技术部 · 上海第一秒信息技术有限公司
         </BioSection>
       </Section>
 
@@ -157,7 +157,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          线上的我
         </Heading>
         <List>
           <ListItem>
@@ -197,18 +197,18 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://space.bilibili.com/479701565"
+            title="ulooocom"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;100k subs)
+            我的 bilibili 频道 (&gt;10 订阅)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href="https://links.ulooo.com/"
+            title="links"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            我的 links 页面
           </GridItem>
         </SimpleGrid>
 
