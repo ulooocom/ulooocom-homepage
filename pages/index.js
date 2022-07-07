@@ -19,7 +19,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import linksForRobinFu from '../public/images/works/linksforrobinfu.jpg'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -197,7 +197,7 @@ const Home = () => (
           <GridItem
             href="https://links.ulooo.com/"
             title="links"
-            thumbnail={thumbInkdrop}
+            thumbnail={linksForRobinFu}
           >
             我的 links 页面
           </GridItem>

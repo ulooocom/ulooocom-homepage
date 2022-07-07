@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Ulooocom. 保留所有权利.
+      <p></p>&copy; {new Date().getFullYear()} Ulooocom. 保留所有权利. Thanks to <a href="https://www.craftz.dog/" >@craftzdog</a>
     </Box>
   )
 }
