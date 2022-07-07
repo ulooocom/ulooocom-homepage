@@ -79,8 +79,8 @@ const Home = () => (
           关于我
         </Heading>
         <Paragraph>
-          Robin Fu 是一名在上海的数字工匠。他喜欢PC产品，热衷于编程开发，做一些有意思的应用与网站。
-          他也喜欢操作一些视频，有自己的视频频道名为 &quot;
+          Robin Fu 是一名在上海的数字工匠。他喜欢PC类产品，热衷于编程开发，高性能系统架构，做一些有意思的应用与网站。
+          他也喜欢创作视频，有自己的视频频道名为 &quot;
           <NextLink href="https://space.bilibili.com/479701565" passHref>
             <Link target="_blank">ulooocom</Link>
           </NextLink>

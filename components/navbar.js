@@ -116,7 +116,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://github.com/ulooocom/ulooocom-homepage"
                 >
-                  View Source
+                  源码
                 </MenuItem>
               </MenuList>
             </Menu>
