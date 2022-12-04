@@ -125,7 +125,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017 至今</BioYear>
-          技术部 · 上海第一秒信息技术
+          技术部 ·
         </BioSection>
       </Section>
 
