@@ -74,7 +74,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/fisherboy/scene.gltf', {
+      loadGLTFModel(scene, 'https://cdn.ulooo.com/fisherboy/scene.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

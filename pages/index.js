@@ -97,19 +97,15 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          经历
+          工作经历
         </Heading>
-        <BioSection>
-          <BioYear>2005</BioYear>
-          学士学位 · 湖南文理
-        </BioSection>
         <BioSection>
           <BioYear>2005-2007</BioYear>
           资讯技术部 · 上海彪记
         </BioSection>
         <BioSection>
           <BioYear>2007-2009</BioYear>
-          技术部 · 上海壁系商务咨询
+          技术部 · 上海壁系
         </BioSection>
         <BioSection>
           <BioYear>2009-2010</BioYear>
@@ -124,7 +120,7 @@ const Home = () => (
           优e网 · 技术部 · 上海优怡商业
         </BioSection>
         <BioSection>
-          <BioYear>2017 至今</BioYear>
+          <BioYear>2017至今</BioYear>
           技术部 ·
         </BioSection>
       </Section>
